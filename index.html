@@ -11,29 +11,89 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header class="container py-4">
-        <h1 class="text-center">Investment Knowledge Club</h1>
-    </header>
-    <main class="container">
-        <section id="profile" class="mb-4">
-            <!-- Profile card placeholder -->
-        </section>
-        <section id="scores" class="mb-4">
-            <!-- Score cards placeholder -->
-        </section>
-        <section id="info" class="mb-4">
-            <!-- Info section placeholder -->
-        </section>
-        <section id="memberships" class="mb-4">
-            <!-- Memberships placeholder -->
-        </section>
-        <section id="details-link" class="mb-4">
-            <!-- Details link placeholder -->
-        </section>
-    </main>
-    <footer class="container text-center py-3 small text-muted">
-        <!-- Footer placeholder -->
-    </footer>
+    <div class="container py-4">
+        <!-- Profile Card -->
+        <div class="card mb-4 mx-auto" style="max-width: 400px;">
+            <div class="card-body text-center">
+                <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Profile" class="rounded-circle mb-2" style="width:70px;height:70px;object-fit:cover;">
+                <h5 class="card-title mb-1">Michael</h5>
+                <p class="card-text">You've officially joined your first investment knowledge club!</p>
+            </div>
+        </div>
+        <!-- Score Cards -->
+        <div class="row g-3 mb-4">
+            <div class="col-6 col-md-3">
+                <div class="card text-center" style="background:#fbe9e7;">
+                    <div class="card-body">
+                        <img src="https://randomuser.me/api/portraits/men/2.jpg" class="rounded-circle mb-1" style="width:38px;height:38px;object-fit:cover;" alt="Benard Makodingo">
+                        <div class="fw-bold">Benard Makodingo</div>
+                        <div class="fs-4 fw-bold">350</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card text-center" style="background:#e8f5e9;">
+                    <div class="card-body">
+                        <img src="https://randomuser.me/api/portraits/men/3.jpg" class="rounded-circle mb-1" style="width:38px;height:38px;object-fit:cover;" alt="kigSmall Foot">
+                        <div class="fw-bold">kigSmall Foot</div>
+                        <div class="fs-4 fw-bold">225</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card text-center" style="background:#fffde7;">
+                    <div class="card-body">
+                        <img src="https://randomuser.me/api/portraits/women/1.jpg" class="rounded-circle mb-1" style="width:38px;height:38px;object-fit:cover;" alt="Caroline Likhoi">
+                        <div class="fw-bold">Caroline Likhoi</div>
+                        <div class="fs-4 fw-bold">117</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card text-center" style="background:#ffebee;">
+                    <div class="card-body">
+                        <img src="https://randomuser.me/api/portraits/women/2.jpg" class="rounded-circle mb-1" style="width:38px;height:38px;object-fit:cover;" alt="Caroline Likhoi">
+                        <div class="fw-bold">Caroline Likhoi</div>
+                        <div class="fs-4 fw-bold">321</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Info Section -->
+        <div class="mb-3 p-3 rounded" style="background:#fff;border-left:6px solid #ffd600;">
+            <div class="fw-bold text-warning">Now let's make you great!</div>
+            <div class="text-secondary small">You have shown us where you are doing well and where we can support you to be great!</div>
+            <div class="mt-2">From your profile we recommend these memberships. Pick one that fits you best and start your financial adventure</div>
+        </div>
+        <!-- Memberships -->
+        <div class="mb-3">
+            <div class="mb-2">
+                <div class="d-flex justify-content-between align-items-center p-3 rounded" style="background:#fff8e1;color:#bfa100;cursor:pointer;">
+                    <span class="fw-bold">FOUNDATION <span class="text-muted">MEMBERSHIP</span></span>
+                </div>
+                <div class="p-3" style="display:none;background:#fff;">
+                    We invest for you, in shares and in the Mansa-X global fund. Service is free online with your personal representative, but service in the office may have extra charges.
+                </div>
+            </div>
+            <div>
+                <div class="d-flex justify-content-between align-items-center p-3 rounded" style="background:#e3eafc;color:#3b4a6b;cursor:pointer;">
+                    <span class="fw-bold">ECONOMY <span class="text-muted">MEMBERSHIP</span></span>
+                </div>
+                <div class="p-3" style="display:none;background:#fff;">
+                    We will invest your money for you at a guaranteed rate with the Mansa-X global fund. Service is free online with your personal representative, but service in the office may have extra charges.
+                </div>
+            </div>
+        </div>
+        <!-- Details Link -->
+        <div class="mb-4">
+            <a href="#" style="color:#ffb300;font-weight:500;text-decoration:none;">A closer look at the memberships details is available here</a>
+        </div>
+        <!-- Footer -->
+        <footer class="text-center small text-muted py-2">
+            Fourfront Management © 2025. All Rights Reserved
+            <a href="#" class="ms-2"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="20"></a>
+        </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
